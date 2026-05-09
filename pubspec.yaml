@@ -1,0 +1,36 @@
+name: sakupintar_finall
+description: "Proyek UAS SakuPintar - Siti Kholifah Noviyanti"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Untuk format mata uang Rupiah
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  # Library untuk membuat icon aplikasi
+  flutter_launcher_icons: ^0.13.1
+
+# Bagian ini harus nempel ke pinggir kiri (tanpa spasi)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+
+# Bagian ini juga harus nempel ke pinggir kiri
+flutter:
+  uses-material-design: true
+
+  # Mendaftarkan folder assets
+  assets:
+    - assets/app_icon.png
